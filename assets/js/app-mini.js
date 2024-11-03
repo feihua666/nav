@@ -846,6 +846,12 @@
             }
         })
     }
+
+    /**
+     * 参考：https://www.cnblogs.com/sunsky303/p/11045113.html
+     * @param value
+     * @param parents
+     */
     function getSmartTipsBaidu(value,parents) {
         $.ajax({
             type: "GET",
